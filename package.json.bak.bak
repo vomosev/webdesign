@@ -1,0 +1,37 @@
+{
+  "name": "clean-lines-webdesign",
+  "version": "1.0.0",
+  "description": "A modern web design showcase site emphasizing clean lines and minimalist aesthetics",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "next dev -p 5086",
+    "build": "next build",
+    "start": "next start -p 5086",
+    "server": "node server/index.js"
+  },
+  "keywords": [
+    "web-design",
+    "portfolio",
+    "clean-design",
+    "minimalist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.5",
+    "bcrypt": "^5.1.1",
+    "express-session": "^1.17.3",
+    "express-mysql-session": "^3.0.0",
+    "cookie-parser": "^1.4.6",
+    "@builder.io/partytown": "latest",
+    "@/components": "latest",
+    "node:path": "latest"
+  },
+  "devDependencies": {}
+}
